@@ -1,4 +1,4 @@
-project(expr-scaner-test)
+project(expr-parser-test)
 compiler(g++)
 linker(g++)
 source_dir("src")
