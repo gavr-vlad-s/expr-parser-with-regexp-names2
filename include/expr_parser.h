@@ -30,7 +30,7 @@ public:
     virtual ~SLR_act_expr_parser()                       = default;
     SLR_act_expr_parser(const SLR_act_expr_parser& orig) = default;
 
-    SLR_act_expr_parser(const Expr_scaner_ptr&                       esc,
+    SLR_act_expr_parser(const escaner::Expr_scaner_ptr&              esc,
                         const Errors_and_tries&                      et,
                         const std::shared_ptr<Scope>&                scope,
                         const LR_parser_tables<Expr_grammar_traits>& tables) :
