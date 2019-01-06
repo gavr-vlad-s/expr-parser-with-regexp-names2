@@ -21,6 +21,7 @@
 namespace ascaner{
     template<typename Lexeme_type>
     struct Token{
+        Token() = default;
         Position_range range_;
         Lexeme_type    lexeme_;
     };

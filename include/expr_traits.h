@@ -33,5 +33,5 @@ enum class Terminal{
 
 using Expr_grammar_traits = Grammar_traits<Terminal, Non_terminal, Rule, 3>;
 
-using Expr_scaner_traits  = Scaner_traits<escaner::Expr_scaner, escaner::Expr_lexem_info>;
+using Expr_scaner_traits  = Scaner_traits<escaner::Expr_scaner, escaner::Expr_token>;
 #endif

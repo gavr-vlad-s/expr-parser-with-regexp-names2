@@ -12,8 +12,8 @@
 #include "../include/myconcepts.h"
 template<typename Lexem_type>
 struct Attributes{
+    Lexem_type li;
     union{
-        Lexem_type li;
         struct{
             size_t begin_index;
             size_t end_index;
