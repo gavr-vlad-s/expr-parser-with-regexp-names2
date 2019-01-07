@@ -18,10 +18,10 @@
 
 static const Terminal lexem2terminal_map[] = {
     Terminal::End_of_text, Terminal::End_of_text, Terminal::Term_a,
-    Terminal::Term_LP,     Terminal::Term_RP,     Terminal::Term_b,
-    Terminal::Term_c,      Terminal::Term_c,      Terminal::Term_c,
-    Terminal::Term_d,      Terminal::Term_p,      Terminal::Term_q,
-    Terminal::Term_d,      Terminal::Term_d
+    Terminal::Term_d,      Terminal::Term_LP,     Terminal::Term_RP,
+    Terminal::Term_b,      Terminal::Term_c,      Terminal::Term_c,
+    Terminal::Term_c,      Terminal::Term_d,      Terminal::Term_p,
+    Terminal::Term_q,      Terminal::Term_d,      Terminal::Term_d
 };
 
 Terminal SLR_act_expr_parser::lexem2terminal(const escaner::Expr_token& l)
